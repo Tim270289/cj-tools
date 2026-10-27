@@ -47,7 +47,7 @@ export default function Home() {
 
         <section>
           <h2 className="mb-6 text-center text-sm font-bold tracking-widest text-slate-400">所有小工具</h2>
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {TOOLS.map((tool) => (
               <Link
                 key={tool.href}

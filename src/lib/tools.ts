@@ -16,6 +16,14 @@ export const TOOLS = [
     features: ["番茄鐘專注計時、自動切換休息", "每 30 分鐘一格的時間表，自動保存", "一鍵截圖今日計劃"],
     icon: "timer",
   },
+  {
+    href: "/qa",
+    name: "工務Q&A",
+    title: "工務 Q&A",
+    description: "歷年塗料施工常見問題整理，輸入關鍵字馬上查到答案。",
+    features: ["關鍵字搜尋，例如「工時」「起泡」", "依施工分類快速瀏覽", "搜尋結果自動標示關鍵字"],
+    icon: "book",
+  },
 ] as const;
 
 export type ToolIconName = (typeof TOOLS)[number]["icon"];
