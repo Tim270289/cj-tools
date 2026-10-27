@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { AREA_COLORS, DEFAULT_MEMBERS } from "./areas";
+import { DEFAULT_MEMBERS } from "@/lib/members";
+import { AREA_COLORS } from "./areas";
 import StepTitle from "@/components/step-title";
 import { downloadScreenshot } from "@/lib/download-screenshot";
 

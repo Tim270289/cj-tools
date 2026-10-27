@@ -24,6 +24,14 @@ export const TOOLS = [
     features: ["關鍵字搜尋，例如「工時」「起泡」", "依施工分類快速瀏覽", "搜尋結果自動標示關鍵字"],
     icon: "book",
   },
+  {
+    href: "/expense",
+    name: "發票請款",
+    title: "發票請款",
+    description: "填好支出人、日期、類型、明細並附上憑證，一鍵產生請款單。",
+    features: ["多筆明細自動加總金額", "拖曳上傳發票、收據照片或 PDF", "產生請款單並下載成圖片"],
+    icon: "receipt",
+  },
 ] as const;
 
 export type ToolIconName = (typeof TOOLS)[number]["icon"];

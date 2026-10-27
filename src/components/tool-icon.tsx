@@ -10,6 +10,14 @@ export default function ToolIcon({ name, className }: { name: ToolIconName; clas
       </svg>
     );
   }
+  if (name === "receipt") {
+    return (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className={className} aria-hidden>
+        <path d="M5 3h14v18l-2.5-1.5L14 21l-2-1.5-2 1.5-2.5-1.5L5 21z" strokeLinejoin="round" />
+        <path d="M9 8h6M9 12h6M9 16h3" strokeLinecap="round" />
+      </svg>
+    );
+  }
   if (name === "book") {
     return (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className={className} aria-hidden>

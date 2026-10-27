@@ -8,20 +8,6 @@ export const CLEANING_AREAS = [
   "冰箱清理",
 ];
 
-// 預設的夥伴名單，頁面打開時會自動帶入，可再手動增減
-export const DEFAULT_MEMBERS = [
-  "孟新",
-  "崇德",
-  "小菲",
-  "俊沅",
-  "浩慈",
-  "律涵",
-  "Tony",
-  "容涵",
-  "阿翔",
-  "峰哥",
-];
-
 // 區域代表色，轉盤、清單、圖片共用
 export const AREA_COLORS = [
   "#059669",

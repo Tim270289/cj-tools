@@ -16,14 +16,14 @@ export default function SiteHeader() {
           </span>
           <span className="hidden font-black tracking-tight text-slate-900 sm:block">采匠的好用小工具</span>
         </Link>
-        <nav className="ml-auto flex items-center gap-1">
+        <nav className="-mr-2 ml-auto flex items-center gap-1 overflow-x-auto pr-2">
           {TOOLS.map((tool) => {
             const active = pathname === tool.href;
             return (
               <Link
                 key={tool.href}
                 href={tool.href}
-                className={`rounded-xl px-3 py-2 text-sm font-bold transition sm:px-4 ${
+                className={`shrink-0 rounded-xl px-2.5 py-2 text-sm font-bold whitespace-nowrap transition sm:px-4 ${
                   active ? "bg-emerald-50 text-emerald-700" : "text-slate-500 hover:bg-slate-100 hover:text-slate-800"
                 }`}
               >
